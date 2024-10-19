@@ -1,0 +1,103 @@
+@font-face {
+  font-family: font1;
+  src: url(/fonts/Figtree-VariableFont_wght.ttf);
+}
+body {
+  background-color: rgb(255, 219, 77);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.super-container {
+  width: 249px;
+  height: 376px;
+  background-color: aliceblue;
+  border-radius: 16px;
+  border: 3px solid black;
+  box-shadow: 7px 7px black;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 236px;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .super-container {
+    width: 270px;
+  }
+  .container {
+    width: 257px;
+  }
+  #svg {
+    width: 237px;
+  }
+}
+.head {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.head__svg-img {
+  width: 216px;
+  height: 146px;
+  border-radius: 10px;
+}
+.head__icon {
+  font-weight: 700;
+  background-color: rgb(255, 219, 77);
+  padding: 5px 32px 5px 9px;
+  font-size: 12px;
+  border: 1px solid black;
+  width: 10%;
+  border-radius: 3px;
+  text-align: center;
+  font-family: font1;
+}
+.head__date {
+  font-size: 10px;
+  font-family: font1;
+  font-weight: 300;
+  color: rgba(48, 46, 46, 0.979);
+  margin: 0;
+}
+
+.article {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.article__title {
+  font-family: font1;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+  word-break: break-all;
+}
+.article__para {
+  font-family: font1;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 3px;
+  margin-bottom: 0;
+  word-break: break-all;
+}
+.article__writer {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+}
+.article__avater {
+  width: 30px;
+}
+.article__name {
+  margin: 9px;
+  font-family: font1;
+  font-size: 12px;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */
